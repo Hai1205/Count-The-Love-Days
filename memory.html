@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đếm ngày yêu</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap");
+    </style>
+    <link rel="stylesheet" href="./css/memory.css">
+</head>
+
+<body translate="no" onclick="playAudio()">
+    <canvas id="c" width="948" height="586"></canvas>
+
+    <div class="container">
+        <div class="text">
+            <p>Nhấn vào máy ảnh để xem kỹ niệm của chúng mình ❤️😘💗</p>
+            <button class="button js-develop-button">📸</button>
+            <a href="./index.html"> <button class="button js-reset-button">↩️</button></a>
+        </div>
+
+        <div class="polaroid-container">
+            <div class="polaroid">
+                <div class="photo js-photo">
+                </div>
+            </div>
+        </div>
+        <!-- <div class="polaroid-container video-container">
+            <div class="polaroid">
+                <video loop muted class="photo js-photo">
+                    <source src="./img/memory.mp4" type="video/mp4">
+                    Trình duyệt của bạn không hỗ trợ thẻ video.
+                </video>
+            </div>
+        </div> -->
+
+        <audio id="myAudio">
+            <source src="./ST.mp3" type="audio/mp3">
+            Trình duyệt của bạn không hỗ trợ thẻ audio.
+        </audio>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
