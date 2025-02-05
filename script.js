@@ -121,7 +121,7 @@ function playAudio() {
   var audio = document.getElementById("myAudio");
   audio.play();
 }
-
+playAudio();
 
 const yourDate = new Date("2022-10-20T00:00:00");
 
